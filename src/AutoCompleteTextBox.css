@@ -1,0 +1,29 @@
+.AutoCompleteTextBox {
+    width: 100%;
+
+}
+
+.AutoCompleteTextBox input {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #fff;
+    padding: 6px 12px;
+    border: 2px solid #1c1c1c;
+}
+
+.AutoCompleteTextBox ul {
+    margin: 0;
+    padding: 0;
+    border: 1px solid #ccc;
+    list-style:none;
+}
+
+.AutoCompleteTextBox li {
+    padding: 5px 0px;
+    cursor: pointer;
+}
+
+.AutoCompleteTextBox li:hover {
+    background-color: #e8e8e8;
+    font-weight: bold;
+}
